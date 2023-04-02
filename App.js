@@ -14,4 +14,4 @@ do{
     .toLocaleLowerCase();
 }while(input != "sair") 
 
-console.log(chalk.green.underline(propriedade.sort().join("\n")));
+console.log(chalk.green.italic(propriedade.sort().join("\n")));
